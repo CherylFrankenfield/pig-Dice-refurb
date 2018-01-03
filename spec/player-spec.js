@@ -11,4 +11,10 @@ describe('Player', function () {
     player.pass();
     expect(player.active).toEqual(true);
   });
+
+  it('should test that tempScore is reset to zero if player rolls 1', function() {
+    var player = new Player("harry", true, 10, 33)
+    player.turn(1);
+    expect(player.tempScore).toEqual(0);
+  });
 });

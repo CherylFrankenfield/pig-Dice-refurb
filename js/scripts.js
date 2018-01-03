@@ -4,6 +4,7 @@ function Player(name, active, totalScore, tempScore) {
   this.active = active;
   this.totalScore = totalScore;
   this.tempScore = tempScore;
+  
 }
 
 Player.prototype.pass = function(){
