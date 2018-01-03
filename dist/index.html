@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Template</title>
+  </head>
+  <body>
+    <h1>Pig Dice</h1>
+    <div class="center-box">
+      <div class="row">
+        <div class="oops p1">
+          Oops!<br>You rolled a 1 :(
+        </div>
+        <div class="oops p2">
+          Oops!<br>You rolled a 1 :(
+        </div>
+        <div class="current-player"></div>
+        <div class="col-md-6 player-box">
+          <h3>Player1</h3>
+          <div class="score-box p1"><div class="score-title">Score:</div><span id="p1-score">0</span></div>
+        </div>
+        <div class="col-md-6 player-box">
+          <h3>Player2</h3>
+          <div class="score-box p2"><div class="score-title">Score:</div><span id="p2-score">0</span></div>
+        </div>
+      </div>
+      <div class="buttons">
+
+          <div class="roll-btn" id="roll">Roll</div>
+          <div class="pass-btn" id="pass">Pass Turn</div>
+          <div class="turn-box p1 active">
+            <span style="font-size:.5em">Your<br>Turn!</span>
+          </div>
+          <div class="turn-box p2">
+            <span style="font-size:.5em">Your<br>Turn!</span>
+          </div>
+          <div class="turn-score p1 active">0</div>
+          <div class="turn-score p2">0</div>
+      </div>
+    </div>
+  </body>
+</html>
