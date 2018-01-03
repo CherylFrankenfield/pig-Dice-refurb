@@ -29,3 +29,5 @@ Player.prototype.turn = function(rollScore) {
   }
 
 }
+
+exports.playerModule = Player;
